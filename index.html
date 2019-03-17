@@ -21,6 +21,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -37,18 +38,15 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="#">Services
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">Refinishing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -71,12 +69,110 @@
   </header>
 
   <!-- Page Content -->
-  <section class="py-5">
+  <!-- TODO: Add artist credit for images <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+  <section class="" id="services">
     <div class="container">
-      <h2 class="font-weight-light">Page Content</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+      <div class="row">
+        <div class="col-md-6 service-container">
+          <img class="service-icon" src="./images/cleaning.svg" alt="Cleaning supplies">
+          <h3 class="service-headline">Cleaning</h3>
+          <p class="service-tagline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a class="btn btn-primary service-button" href="services.html" role="button">Learn More</a>
+        </div>
+
+        <div class="col-md-6 service-container">
+          <img class="service-icon" src="./images/renovation.svg" alt="Home renovation">
+          <h3 class="service-headline">Refinishing</h3>
+          <p class="service-tagline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a class="btn btn-primary service-button" href="refinish.html" role="button">Learn More</a>
+        </div>
+      </div>
     </div>
   </section>
+
+  <section class="" id="testimonials">
+    <div class="container">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-5x card-img"></i>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 ml-auto" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-5x card-img"></i>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-5x card-img"></i>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="" id="cta">
+    <div class="container">
+      <h2 class="cta-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e.</h2>
+
+      <h3 class="cta-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+
+      <a class="btn btn-primary cta-button" href="contact.html" role="button">Contact Us</a>
+
+      <div class="row">
+        <div class="col-md-6">
+          <a class="btn btn-primary" href="#" role="button"><i class="fab fa-facebook-square"></i></a>
+
+        </div>
+        <div class="col-md-6">
+          <a class="btn btn-primary" href="#" role="button"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="col-md-3">
+          <i class="fas fa-mobile-alt"></i>
+          <p>850-555-4532</p>
+        </div>
+      </div>
+      <p>&copy All Rights Reserved 2019 Sparkle Cleaning Solutions</p>
+    </div>
+  </footer>
 
 </body>
 
