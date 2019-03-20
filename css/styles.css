@@ -1,14 +1,173 @@
+body {
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+nav {
+  color: #211B1E;
+  background-color: #FBFBFB;
+  box-shadow: 0 4px 8px 0 #E18FBD;
+}
+
+.nav a:hover {
+  color: #16DCDF;
+}
+
+.navbar {
+  padding: 20px;
+}
+
 .masthead {
-  height: 100vh;
+  height: 120vh;
   min-height: 500px;
-  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #FBFBFB;
+  padding: 150px;
 }
 
+.masthead-subheading {
+  color: #211B1E;
+}
 
-img {
-  width: 200px;
+.logo {
+  width: 20.5rem;
+  height: 10.25rem;
+}
+
+.masthead-subheading {
+  padding: 10px;
+}
+
+.masthead-image {
+  width: 400px;
+  height: 350px;
+}
+
+section {
+  padding: 7% 5%;
+}
+
+#services {
+  background-color: #BE588E;
+  color: #FBFBFB;
+}
+
+.service-icon {
+  width: 12.5rem;
+  height: 6.25rem;
+  margin-bottom: 15px;
+}
+
+.service-tagline {
+  line-height: 2;
+}
+
+#testimonials {
+  background-color: #FBFBFB;
+}
+
+.testimonial-heading {
+  padding: 25px;
+  color: #CF528F;
+}
+
+.testimonial-card {
+  background-color: #FBFBFB;
+  border: 3px solid #16DCDF;
+  color: #CF528F;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.testimonial-quote {
+  width: 100px;
   height: 100px;
+}
+
+.image-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-button {
+  background-color: #16DCDF;
+  color: #CF528F;
+  margin: 20px;
+}
+
+.testimonial-button:hover {
+  background-color: #FBFBFB;
+  border: 2px solid #CF528F;
+  color: #CF528F;
+}
+
+#cta {
+  background-color: #CF528F;
+  color: #FBFBFB;
+}
+
+.cta-heading {
+  line-height: 2;
+}
+
+.cta-subheading {
+  line-height: 2;
+}
+
+.cta-button {
+  /* background-color: #FBFBFB; */
+  border: 2px solid #FBFBFB;
+  color: #FBFBFB;
+
+}
+
+.cta-buttons {
+  margin-top: 15px;
+
+}
+
+a.cta-button:hover {
+  background-color: #16DCDF;
+  border: 2px solid #16DCDF;
+  color: #FBFBFB;
+}
+
+footer {
+  padding: 20px;
+  background-color: #F9C8E0;
+  color: #211B1E;
+}
+
+.footer-link {
+  color: #211B1E;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+
+  /*1028px or less tablet or phone size */
+.masthead-subheading {
+  display: none;
+}
+
+.service-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.service-tagline {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  margin: 10px;
+}
+
 }
