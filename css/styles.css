@@ -10,7 +10,7 @@ nav {
   box-shadow: 0 4px 8px 0 #E18FBD;
 }
 
-.nav a:hover {
+a .nav-link:hover {
   color: #16DCDF;
 }
 
@@ -30,6 +30,16 @@ nav {
 
 .masthead-subheading {
   color: #211B1E;
+}
+
+.title-container {
+  height: 120vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FBFBFB;
+  padding: 150px;
 }
 
 .logo {
@@ -118,7 +128,6 @@ section {
 }
 
 .cta-button {
-  /* background-color: #FBFBFB; */
   border: 2px solid #FBFBFB;
   color: #FBFBFB;
 
@@ -126,13 +135,20 @@ section {
 
 .cta-buttons {
   margin-top: 15px;
-
 }
 
 a.cta-button:hover {
   background-color: #16DCDF;
   border: 2px solid #16DCDF;
   color: #FBFBFB;
+}
+
+.social-media-icon {
+  color: #FBFBFB;
+}
+
+.social-media-icon:hover {
+  color: #16DCDF;
 }
 
 footer {
