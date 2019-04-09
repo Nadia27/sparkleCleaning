@@ -151,6 +151,35 @@ a.cta-button:hover {
   color: #16DCDF;
 }
 
+
+.fairy-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.service-icon {
+  /* padding: 20px; */
+
+}
+
+.cleaning-list {
+  list-style-type: none;
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.cleaning-item:hover {
+  color: #CF528F;
+}
+
+.work {
+  width: 50px;
+  height: 400px;
+}
+
 footer {
   padding: 20px;
   background-color: #F9C8E0;
