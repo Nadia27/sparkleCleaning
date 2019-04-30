@@ -22,6 +22,8 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -56,22 +58,25 @@
     </div>
   </nav>
 
-  <section class="title-container" id="">
-
-    <h2 class="services-heading">What We Offer</h2>
+  <section class="title-container" id="cleaning-main-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="services-heading">What We Offer</h2>
+      </div>
+    </div>
     <hr>
 
     <div class="card-deck">
-      <div class="card">
+
+      <div class="card offerings">
         <div class="card-body">
           <h4 class="card-title service-subheading">Free Same Day Estimates</h4>
           <i class="fas fa-calendar-day fa-4x"></i>
-          <!-- <h5>Contact us today by phone or email!</h5> -->
           <hr>
         </div>
       </div>
 
-      <div class="card">
+      <div class="card offerings">
         <div class="card-body">
           <h4 class="card-title service-subheading">Experienced & Reliable Service</h4>
           <i class="fas fa-link fa-4x"></i>
@@ -79,7 +84,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card offerings">
         <div class="card-body">
           <h4 class="card-title service-subheading">Licensed & Insured</h4>
           <i class="fas fa-certificate fa-4x"></i>
@@ -87,7 +92,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card offerings">
         <div class="card-body">
           <h4 class="card-title service-subheading">Satisfaction Guaranteed</h4>
           <i class="far fa-smile fa-4x"></i>
@@ -95,6 +100,7 @@
         </div>
       </div>
     </div>
+
   </section>
 
 
@@ -102,10 +108,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="services-heading">Cleaning Services</h2>
-          <hr>
+          <h2 class="section-heading">Cleaning Services</h2>
         </div>
       </div>
+      <hr>
       <div class="row">
         <div class="col-md-12">
           <ul class="cleaning-list">
@@ -113,6 +119,7 @@
             <li class="cleaning-item">Vacation Rentals</li>
             <li class="cleaning-item">Commerical Cleaning</li>
             <li class="cleaning-item">Floor Striping/Waxing</li>
+            <li class="cleaning-item">Carpet Cleaning</li>
             <li class="cleaning-item">Pressure Washing</li>
             <li class="cleaning-item">Lawn Care</li>
           </ul>
@@ -124,60 +131,58 @@
         </div>
       </div>
     </div>
+  </section>
 
+  <!-- Images used to open lightbox -->
+  <section class="before-after-images">
+
+    <h2 class="section-heading">Before and After</h2>
+    <h3 class="section-subheading">It's Not Clean If It Don't Sparkle</h3>
+    <hr>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="images hover-shadow zoom" src="./images/before1.jpeg" alt="Before image of dirty stove">
+      </div>
+      <div class="col-md-3">
+        <img class="images hover-shadow zoom" src="./images/after1.jpeg" alt="After image of cleaned stove">
+      </div>
+      <div class="col-md-3">
+        <img class="images hover-shadow zoom" src="./images/before2.jpeg" alt="Before image of dirty bathtub">
+      </div>
+      <div class="col-md-3">
+        <img src="./images/after2.jpeg" alt="After image of cleaned bathtub" class="images hover-shadow zoom">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./images/before3.jpeg" alt="Before image of dirty refrigerator" class="images hover-shadow zoom">
+      </div>
+      <div class="col-md-3">
+        <img src="./images/after3.jpeg" alt="After image of cleaned refrigerator" class="images hover-shadow zoom">
+      </div>
+      <div class="col-md-3">
+        <img src="./images/before4.jpeg" alt="Before image of dirty floor" class="images hover-shadow zoom">
+      </div>
+      <div class="col-md-3">
+        <img src="./images/after4.jpeg" alt="After image of striped and waxed floor" class="images hover-shadow zoom">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./images/brick.jpg" alt="Before and after of pressure washed brick" class="images hover-shadow zoom">
+      </div>
+    </div>
   </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <section class="" id="gallery">
-    <h3>Before and After</h3>
-    <p>It's Not Clean If It Don't Sparkle</p>
+  <section class="call-to-action" id="cleaning-cta">
+    <h2 class="cta-headline">Contact Us Now</h2>
     <hr>
-
-    <div class="card-columns">
-      <div class="card">
-        <img src="./images/before1.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="./images/after2.jpeg" alt="Sparkle fairy">
-      </div>
-
-      <div class="card">
-        <img src="./images/after1.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="./images/before3.jpeg" alt="Sparkle fairy">
-      </div>
-      <div class="card">
-        <img src="./images/before2.jpeg" class="card-img-top" alt="...">
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="./images/after3.jpeg" alt="">
-      </div>
-  </div>
-</section>
-
-  <section class="" id="cleaning-cta">
-    <h3>Contact Us Now</h3>
-    <hr>
-    <h4>Call Us Now For A Free Estimate!</h4>
-    <h4>850-529-5367</h4>
-    <h4>or</h4>
-    <h4>Complete an Online Form</h4>
-    <a class="btn btn-primary btn-lg" href="contact.html" role="button">Get A Free Quote</a>
+    <h3 class="cta-subheading">Call Us Now For A Free Estimate!</h3>
+    <h3 class="cta-subheading">850-529-5367</h3>
+    <h3 class="cta-subheading">or</h3>
+    <h3 class="cta-subheading">Complete an Online Form</h3>
+    <a class="btn btn-lg cta-button" href="contact.html" role="button">Get A Free Quote</a>
 
   </section>
 
@@ -204,6 +209,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./js/index.js" charset="utf-8"></script>
 
 </body>
 

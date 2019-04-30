@@ -10,10 +10,6 @@ nav {
   box-shadow: 0 4px 8px 0 #E18FBD;
 }
 
-a .nav-link:hover {
-  color: #16DCDF;
-}
-
 .navbar {
   padding: 20px;
 }
@@ -38,7 +34,7 @@ a .nav-link:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #FBFBFB;
+  background-color: #CF528F;
   padding: 150px;
 }
 
@@ -114,7 +110,7 @@ section {
   color: #CF528F;
 }
 
-#cta {
+.call-to-action {
   background-color: #CF528F;
   color: #FBFBFB;
 }
@@ -130,7 +126,6 @@ section {
 .cta-button {
   border: 2px solid #FBFBFB;
   color: #FBFBFB;
-
 }
 
 .cta-buttons {
@@ -151,20 +146,50 @@ a.cta-button:hover {
   color: #16DCDF;
 }
 
-
 .fairy-logo {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+}
+
+.services-heading {
+  color: #FBFBFB;
+}
+
+.main-subheading {
+  color: #FBFBFB;
+  font-family: 'Satisfy', cursive;
+}
+
+#cleaning-main-container hr {
+  border-color: #FBFBFB;
+}
+
+.offerings {
+  margin: 10px;
+  color: #FBFBFB;
+  background-color: #CF528F;
+  border-color: #FBFBFB;
+}
+
+#menu {
+  background-color: #FBFBFB;
 }
 
 
-.service-icon {
-  /* padding: 20px; */
+.section-heading {
+  color: #CF528F;
+}
 
+#menu hr {
+  border-color: #16DCDF;
+}
+
+.section-subheading {
+  color: #E18FBD;
 }
 
 .cleaning-list {
+  color: #CF528F;
   list-style-type: none;
   font-size: 1.5rem;
   line-height: 2;
@@ -172,12 +197,64 @@ a.cta-button:hover {
 }
 
 .cleaning-item:hover {
-  color: #CF528F;
+  color: #16DCDF;
 }
 
 .work {
   width: 50px;
   height: 400px;
+}
+
+#before-and-after {
+  background-color: #FBFBFB;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+
+#cleaning-cta {
+  color: #FBFBFB;
+}
+
+/* Before and after */
+
+.row > .column {
+  padding: 8px 8px;
+}
+
+.before-after-images hr {
+  border-color: #16DCDF;
+}
+
+#cleaning-cta hr {
+  border-color: #FBFBFB;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.section-subheading {
+  font-family: 'Satisfy', cursive;
 }
 
 footer {
@@ -213,6 +290,11 @@ footer {
 
 .cta-button {
   margin: 10px;
+}
+
+.title-container {
+  height: 1200px;
+  padding-bottom: 10rem;
 }
 
 }
