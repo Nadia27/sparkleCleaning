@@ -257,6 +257,71 @@ img.hover-shadow {
   font-family: 'Satisfy', cursive;
 }
 
+
+#refinishing-main-container {
+  height: 120vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FBFBFB;
+  padding: 150px;
+}
+
+.refinish-heading {
+  color: #CF528F;
+}
+
+.customer-icons {
+  width: 60%;
+}
+
+
+.headline {
+  font-size: 3rem;
+  color: #CF528F;
+}
+
+
+.refinishing-headline {
+  font-size: 3rem;
+  color: #CF528F;
+}
+
+.refinish-subheading {
+  color: #CF528F;
+}
+
+#refinishing-main-container hr {
+  border-color: #CF528F;
+}
+
+.refinish-text {
+  font-family: 'Satisfy', cursive;
+}
+
+.info-section {
+  background-color: #FBFBFB;
+  color: #CF528F;
+}
+
+
+.warranty-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.warranty-title {
+  line-height: 2;
+}
+
+.warranty-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+}
+
 footer {
   padding: 20px;
   background-color: #F9C8E0;
