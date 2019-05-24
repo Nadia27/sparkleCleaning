@@ -350,6 +350,28 @@ img.hover-shadow {
   line-height: 1.8;
 }
 
+.contact-nav {
+  box-shadow: 0 4px 8px 0 #CF528F;
+}
+
+.contact-main-container {
+  background-color: #FBFBFB;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  font-family: 'Satisfy', cursive;
+  color: #CF528F;
+}
+
+.contact-banner {
+  width: 100%;
+}
+
+.contact-main {
+  /* background-color: #E18FBD; */
+}
+
 footer {
   padding: 20px;
   background-color: #F9C8E0;
